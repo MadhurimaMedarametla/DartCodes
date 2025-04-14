@@ -1,3 +1,5 @@
+/*Code to check each char is vowel or consonant in a input given String*/
+
 void main() {
   String input = "Madhurima1";
   String vowels = "aeiouAEIOU";
