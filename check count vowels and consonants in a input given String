@@ -1,0 +1,21 @@
+void main()
+{
+  String input="This is Dart Programming";
+  int vowels=0;
+  int consonants=0;
+  String char;
+  String input2=input.toLowerCase();
+  for(int i=0;i<input2.length;i++)
+  {
+    char=input2[i];
+    if('aeiou'.contains(char))
+    {
+      vowels++;
+   }
+    else{
+      consonants++;
+    }
+  }
+  print("the vowels are: $vowels");
+  print("the consonants are: $consonants ");
+}
