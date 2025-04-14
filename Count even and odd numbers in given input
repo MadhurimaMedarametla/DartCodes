@@ -1,0 +1,19 @@
+void main() {
+  List<double> input = [0, 1, 2, 3, 4, 5, 6, 5.8];
+  int even = 0;
+  int odd = 0;
+
+  for (double i in input) {
+      if (i % 2 == 0) 
+      {
+        even++;
+      } 
+    else 
+    {
+        odd++;
+      }
+  }
+
+  print("Total even numbers: $even");
+  print("Total odd numbers: $odd");
+}
