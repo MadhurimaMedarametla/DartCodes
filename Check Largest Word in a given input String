@@ -1,0 +1,13 @@
+void main()
+{
+String input="This is Madhurima";
+List <String> input2=input.split(' ');
+String Result=""; /* Intially the length is zero*/
+
+for(String i in input2){
+if(i.length > Result.length){
+Result=i;
+}
+}
+print('Largest Word Is: $Result');
+}
