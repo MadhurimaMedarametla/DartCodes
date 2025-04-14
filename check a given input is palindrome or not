@@ -1,0 +1,13 @@
+void main(){
+String input="radar";
+String input2;
+input2=input.split("").reversed.join();
+if(input==input2)
+{
+print("$input is a palindrome");
+}
+else
+{
+print("$input is not a palindrome");
+}
+}
