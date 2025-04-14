@@ -1,0 +1,14 @@
+void main()
+{
+  List<double>input=[0,1,2,3,4,5,6,5.8];
+  for(double i in input){
+  if(i%2==0)
+  {
+    print("it is even $i");
+  }
+  else
+  {
+    print("it is odd $i");
+  }
+ }
+}
