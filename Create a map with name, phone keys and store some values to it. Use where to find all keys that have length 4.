@@ -1,0 +1,10 @@
+void main()
+{
+ Map<String,dynamic>values={
+   "name":"madhu",
+   "address":"khammam",
+   "phon":987654312
+ };
+  var filteredKeys=values.keys.where((key)=>key.length==4);
+    print(filteredKeys);
+}
