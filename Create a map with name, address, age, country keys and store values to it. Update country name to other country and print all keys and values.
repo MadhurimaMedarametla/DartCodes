@@ -1,0 +1,11 @@
+void main()
+{
+  Map<String,dynamic>value={
+    "name":"Madhu",
+    "age":23,
+    "address":"khammam",
+    "country":"INDIA"
+  };
+  value["country"]="canada";
+  print(value);
+}
