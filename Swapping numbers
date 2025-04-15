@@ -1,0 +1,10 @@
+void main()
+{
+  int a=3;
+  int b=4;
+  print("before swap : a=$a b=$b");
+  int temp=a;
+  a=b;
+  b=temp;
+  print("after swap : a=$a b=$b");
+}
