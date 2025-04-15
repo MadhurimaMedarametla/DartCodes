@@ -1,0 +1,5 @@
+void main()
+{
+  List<String>names=["madhu","shiva","loke","ramu","rajani"];
+  print(names);
+}
