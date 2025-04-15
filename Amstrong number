@@ -1,20 +1,22 @@
+import 'dart:math';
 void main()
 {
-   int a=153;
-  int b=a;
-  int sum=0;
-  while(a>0)
+  int a=8208; /// Declare the input
+  int temp=a; // stored in temp
+  int b=a.toString().length; // To get the length converted to string ex:3 r 4
+  int sum=0; //declare sum with 0
+  while(temp>0) //input number should be >0
   {
-    int digit=a%10;
-    sum=sum+(digit*digit*digit);
-    a=a~/10;
+    int digit=temp%10; // divide into each digit
+    sum=sum+pow(digit,b).toInt(); //apply power which got in b to each digit
+    temp=temp ~/10; // to remove last digit
   }
-  if(sum==b)
+  if(sum==a) // check with orginal value
   {
-    print("$b is amstrong number");
+    print("$a is amstrong number");
   }
   else
   {
-    print("$b is not a amstrong number");
+    print("$a is not a amstrong number");
   }
 }
