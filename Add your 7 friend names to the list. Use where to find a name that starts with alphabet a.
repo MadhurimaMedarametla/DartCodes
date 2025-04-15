@@ -1,0 +1,11 @@
+void main()
+{
+  List<String>names=["madhu","jahir","arun","arjun","priyanka","sai krishna","vamsi"];
+  for( var name in names)
+  {
+    if(name[0]=='a')
+    {
+      print(name);
+    }
+  }
+}
