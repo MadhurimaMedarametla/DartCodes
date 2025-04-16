@@ -1,0 +1,31 @@
+void sayHello(int a,int b) // declaring function with 2 parameters
+{
+  int c= 5; // local variable
+  int d=a+b+c;
+  print(d);
+}
+void sayHello1(int a,int b)
+{
+  print(a-b);
+}
+void greater(int a,int b)
+             {
+              if(a>b)
+              {
+                print(a);
+              }
+  else
+  {
+    print(b);
+  }
+}
+void main()
+{
+  int a=3;// gobal variables
+  int b=6; //gobal variable 
+  sayHello(a,b);
+  sayHello1(a,b);
+  greater(a,b);
+}
+// we can use gobal variable in any function 
+// we can't use local variable in other functions
