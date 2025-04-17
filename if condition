@@ -1,0 +1,6 @@
+void main()
+{
+  int a=3;
+  int b=4;
+  a>b ? print(" $a is greater"):print("$b is greater");
+}
