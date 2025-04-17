@@ -1,0 +1,41 @@
+void main(){
+List<int> name =[1,2,3,4,5];
+  List<int> name1 =name;  
+  print(name.sublist(2));  //sublist of a num
+  print(name.sublist(1,4));//sublist b/w nums
+  name.shuffle(); //shuffle function to shuffle the numbers randomly
+  print("$name");
+  print(name1.reversed.toList()); //to reverse the numbers
+  List<String>fruits=["orange","banana","apple"];
+  Map<dynamic,dynamic>list=fruits.asMap(); //asMap to give index values
+  print(list);
+  var mixList=[1,"a",2,3,"b","c",5,4,"d"]; //where type is used to find the type a value given in the list
+  var num=mixList.whereType<String>();
+  print(num);
+  var mixList1=[1,"a",2,3,"b","c",5,4,"d"]; //where type is used to find the type a value given in the list
+  var num1=mixList1.whereType<int>();
+  print(num1);
+  var list1=[1,2,3,4,5,6]; 
+  print(list1.getRange(2,4)); // to get the Range from 
+  var rList=[1,2,3,4,5,6];
+  rList.replaceRange(2,5,[9]); //to Replace the range
+  print("$rList");
+  var firstList=[1,2,3,4,5,6]; 
+  print(firstList.firstWhere((i)=>i<4)); //to find firstwhere num
+  var sList=['one','two','three','four'];
+  print(sList.firstWhere((i)=>i.length>1));//to find firstwhere String
+  var mList=[1,2,3,4];
+  print(mList.singleWhere((i)=>i==3));
+  List<String>add1=['ramu','rajani'];
+  add1.add('madhu');
+  print(add1);
+  List<String>add4=['ramu','rajani'];
+  print(add4.first);
+  print(add4.last);
+  print(add4.isEmpty);
+  print(add4.length);
+  
+  
+    
+    
+  }
