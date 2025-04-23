@@ -1,0 +1,10 @@
+import 'dart:math';
+void main()
+{
+  var random=Random();
+  print(" dice rolled .....");
+  int die1=random.nextInt(6)+1;
+  int die2=random.nextInt(6)+1;
+  print(" i have rolled $die1 and $die2");
+  print("total : ${die1+die2}");
+}
