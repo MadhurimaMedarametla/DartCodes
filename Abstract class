@@ -1,0 +1,28 @@
+abstract class Animal{
+void makeSound();
+
+  void breath(){
+    print("breathing");
+  }
+}
+class Dog extends Animal{
+  void makeSound(){
+    print("brak....!");
+  }
+}
+class Cat extends Animal
+{
+  void makeSound()
+  {
+    print("meoww....!!!");
+  }
+}
+void main()
+{
+  Dog d= Dog();
+  Cat c= Cat();
+  d.makeSound();
+  d.breath();
+  c.makeSound();
+  c.breath();
+}
